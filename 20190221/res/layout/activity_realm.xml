@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RealmActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editWriter"
+        android:hint="작성자를 입력해주세요"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:hint="Message를 작성해 주세요"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnMessage"
+        android:text="전송"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    
+</LinearLayout>
