@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="dog_list">
+        <item>코리안숏헤어</item>
+        <item>페르시안</item>
+        <item>러시안블루</item>
+        <item>아메리칸숏헤어</item>
+        <item>노르웨이숲</item>
+    </string-array>
+</resources>
