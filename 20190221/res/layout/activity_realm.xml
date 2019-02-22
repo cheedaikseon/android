@@ -7,6 +7,13 @@
     tools:context=".activity.RealmActivity"
     android:orientation="vertical">
 
+    <LinearLayout
+        android:id="@+id/addWrap"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
     <EditText
         android:id="@+id/editWriter"
         android:hint="작성자를 입력해주세요"
@@ -15,14 +22,26 @@
 
     <EditText
         android:id="@+id/editMessage"
-        android:hint="Message를 작성해 주세요"
+        android:hint="MESSAGE 를 작성해 주세요."
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
     <Button
         android:id="@+id/btnMessage"
-        android:text="전송"
+        android:text="메세지 등록"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
-    
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"></ListView>
+    <Button
+        android:id="@+id/addMessageBtn"
+        android:text="메세지 추가"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"/>
 </LinearLayout>
