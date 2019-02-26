@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cat_list">
+        <item>코리안숏헤어</item>
+        <item>노르웨이숲</item>
+        <item>페르시안</item>
+        <item>나폴레옹</item>
+        <item>이집트</item>
+        <item>아메리칸숏헤어</item>
+    </string-array>
+    <string-array name="dog_list">
+        <item>코리안숏헤어</item>
+        <item>노르웨이숲</item>
+        <item>페르시안</item>
+        <item>나폴레옹</item>
+        <item>이집트</item>
+        <item>아메리칸숏헤어</item>
+    </string-array>
+
+</resources>
