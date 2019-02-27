@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="img_title">
+        <item>@drawable/sample_1</item>
+        <item>@drawable/sample_2</item>
+        <item>@drawable/sample_big_1</item>
+        <item>@drawable/sample_3</item>
+        <item>@drawable/sample_4</item>
+        <item>@drawable/sample_5</item>
+        <item>@drawable/sample_big_2</item>
+        <item>@drawable/sample_6</item>
+        <item>@drawable/sample_7</item>
+        <item>@drawable/sample_8</item>
+        <item>@drawable/sample_big_3</item>
+        <item>@drawable/sample_9</item>
+        <item>@drawable/sample_10</item>
+    </string-array>
+</resources>
