@@ -58,7 +58,6 @@ public class HorizontalRecyclerViewAdapter extends RecyclerView.Adapter<Horizont
                 notifyItemRangeChanged(pos,getItemCount());
             }
         });
-
     }
 
     @Override
