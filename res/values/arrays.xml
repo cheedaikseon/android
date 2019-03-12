@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="bellName">
+        <item>무음</item>
+        <item>진동</item>
+        <item>노말</item>
+    </string-array>
+    <integer-array name="bellCodes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+
+</resources>
